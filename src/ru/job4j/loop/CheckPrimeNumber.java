@@ -5,7 +5,7 @@ public class CheckPrimeNumber {
         boolean result = false;
         int counter = 0;
         if (number >= 2) {
-            for (int i = 1; i <= number; i++) {
+            for (int i = 2; i <= number; i++) {
                 if (number % i == 0) {
                     counter++;
                     if (counter > 2) {
@@ -13,7 +13,7 @@ public class CheckPrimeNumber {
                     }
                 }
             }
-            if (counter == 2) {
+            if (counter == 1) {
                 result = true;
             }
         }
