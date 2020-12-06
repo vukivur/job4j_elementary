@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class PointTest {
 
-    @Test
+    /*@Test
     public void when00to20then2() {
         int x1 = 0;
         int y1 = 0;
@@ -48,5 +48,5 @@ public class PointTest {
         int expected = 5;
         double result = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, result, 0.01);
-    }
+    }*/
 }
